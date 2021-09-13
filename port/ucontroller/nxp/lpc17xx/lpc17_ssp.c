@@ -31,14 +31,14 @@
 
 static ssp_config_t ssp_cfg[MAX_SSP_INTERFACES] = {
     [FPGA_SPI] = {
-        .lpc_id = LPC_SSP0,
-        .irq = SSP0_IRQn,
-        .ssel_pin = SSP0_SSEL,
-    },
-    [FLASH_SPI] = {
         .lpc_id = LPC_SSP1,
         .irq = SSP1_IRQn,
         .ssel_pin = SSP1_SSEL,
+    },
+    [FLASH_SPI] = {
+        .lpc_id = LPC_SSP0,
+        .irq = SSP0_IRQn,
+        .ssel_pin = SSP0_SSEL,
     }
 };
 
