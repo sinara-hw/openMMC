@@ -36,8 +36,8 @@
 #ifndef AT24MAC_H_
 #define AT24MAC_H_
 
-//#define AT24_MAC402
-#define AT24MAC602
+#define AT24MAC402
+//#define AT24MAC602
 
 #define AT24MAC_ID_ADDR 0x80
 
